@@ -64,8 +64,7 @@ app.post('/', bodyParser.raw({ type: 'application/json' }), (req, res) => {
                 //console.log("Registrants:", myregistrantobj)
                 //fetch only the email addresses from the response and store the addresses in an array
                 
-                 //Either use for loop or use the map() function to store email addresses only.
-                 var emailList = []
+                var emailList = []
                 for (var i = 0; i < myregistrantobj.length; i++) {
                     //Store emails as an array of strings to match the request body for SendGrid API
                     emailobjs = myregistrantobj[i].email
