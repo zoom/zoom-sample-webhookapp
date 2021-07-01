@@ -1,6 +1,7 @@
 # Sample Zoom Webhook App 
 
-Use of this sample app is subject to our [Terms of Use](https://zoom.us/docs/en-us/zoom_api_license_and_tou.html)
+Use of this sample app is subject to our [Terms of Use](https://zoom.us/docs/en-us/zoom_api_license_and_tou.html).
+
 This is a sample app that demonstrates how to automate a part of the Webinar communications workflow using Zoom Webhooks, Zoom API and Sendgrid Email API.
 
 **Prerequisites:**
